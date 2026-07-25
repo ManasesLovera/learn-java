@@ -88,5 +88,25 @@ public class Main {
 
         String flagStr = "true";
         boolean parsedFlag = Boolean.parseBoolean(flagStr);
+
+
+        // String Formatting
+
+        // Specifier | Data type target
+        // %d        | integer (byte, short, int, long)
+        // %f        | decimals (float, double)
+        // %s        | Strings/objects
+        // %c        | character
+        // %b        | boolean
+        // %n        | Adds new line
+
+        double balance = 1234567.891;
+        byte id = 42;
+
+        // Decimal presicion & comma separators
+        System.out.printf("Balance %,.2f USD%n", balance); // Balance: 1,234,567.89 USD
+
+        // Padding integers with leading zeros
+        System.out.printf("ID: %05d%n", id); // ID: 00042
     }
 }
