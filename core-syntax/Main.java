@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String args[]) {
@@ -108,5 +110,25 @@ public class Main {
 
         // Padding integers with leading zeros
         System.out.printf("ID: %05d%n", id); // ID: 00042
+
+
+        // Autoboxing and unboxing (int <-> Integer)
+
+        // int -> Integer
+        // double -> Double
+        // boolean -> Boolean
+        // char -> Character
+        
+        // AUTOBOXING: Compiler converts primitive 42 into Integer.valueOf(42)
+        Integer wrappedAge = 42;
+
+        // UNBOXING: Compiler extracts the primitive value via wrappedAge.intValue()
+        int primitiveAge = wrappedAge;
+
+        // Why it matters: Collections only accepts objects, not primitives
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(100); // Autoboxed from int -> Integer automatically
+
+        int first = numbers.get(0); // Unboxed from Integer -> int automatically
     }
 }
