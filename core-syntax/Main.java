@@ -50,6 +50,20 @@ public class Main {
 
 
 
+        // How 'var' works (Local Variable Type Inference)
+
+        // var is NOT dynamic typing (not like JS or Python)
+        // - Statically Typed at Compile Time
+        // - Immutability of Type
+
+        var count = 10; // Compiler infers type to INT
+        count = 20; // valid, 20 is INT
+
+        // count = "Hello";
+        // COMPILE ERROR: incompatible types: java.lang.String cannot be converted to int
+
+        // Rules for var: Can only be used for local variables with initializers. 
+        // It cannot be used for class fields, method parameters, or return types.
         
     }
 }
