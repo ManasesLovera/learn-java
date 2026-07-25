@@ -64,6 +64,29 @@ public class Main {
 
         // Rules for var: Can only be used for local variables with initializers. 
         // It cannot be used for class fields, method parameters, or return types.
-        
+
+
+
+        // Casting and Type Convertions
+
+        // Implicit convertions (Widening / Automatic)
+        int myOtherInt = 100;
+        long myOtherLong = myOtherInt; // Automatic: int -> long
+        double myOtherDouble = myOtherLong; // Automatic: long -> double
+
+        // Explicit convertions (Narrowing / Manual)
+        // Required when converting a larger to smaller type.
+        int hugeNumber = 130;
+        // byte smallByte = (byte) hugeNumber; // Overflow! byte range is -128 to 127 -> result is -126
+
+        // Parsing strings to primitives
+        String ageStr = "25";
+        int parsedAge = Integer.parseInt(ageStr);
+
+        String priceStr = "49.99";
+        double parsedPrice = Double.parseDouble(priceStr);
+
+        String flagStr = "true";
+        boolean parsedFlag = Boolean.parseBoolean(flagStr);
     }
 }
