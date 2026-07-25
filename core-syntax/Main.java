@@ -130,5 +130,36 @@ public class Main {
         numbers.add(100); // Autoboxed from int -> Integer automatically
 
         int first = numbers.get(0); // Unboxed from Integer -> int automatically
+
+
+
+        // Literal formats
+
+        // 1. Underscored Numbers (1_000_000)
+
+        // Hard to scan visually
+        int oldWay = 10000000;
+        double oldBytes = 3498234.22;
+
+        // Clean, readable equivalents
+        int totalUsers = 10_000_000;
+        double fileSizeBytes = 3_498_234.22;
+        long creditCardNumber = 4532_0123_8910_1112L;
+
+
+
+        // 2. Text blocks
+
+        // Traditional String Concatenation:
+        String traditionalQuery = "SELECT id, name, email\n" +
+                                  "FROM users\n" +
+                                  "WHERE status = 'ACTIVE';\n";
+
+        // Modern Text Block:
+        String modernQuery = """
+            SELECT id, name, email
+            FROM users
+            WHERE status = 'ACTIVE';
+            """;
     }
 }
