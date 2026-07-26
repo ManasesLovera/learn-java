@@ -32,4 +32,6 @@ All Markdown files (`.md`) created or edited in this repository MUST strictly fo
 * `1.core-syntax/` - Primitive types, casting, var, type system.
 * `2.packages/` - Package declarations, multi-file structure, imports.
 * `3.jvm/` - JVM architecture, memory layout (Heap, Stack, Metaspace), Garbage Collection docs.
+* `4.generics/` - Generic classes, generic methods, bounded parameters, wildcards (PECS), type erasure mechanics.
+* `5.dsa/` - Data structures, Java Collections Framework, JDK 21 Sequenced Collections, and algorithm cheat sheet.
 * `ROADMAP.md` - Java 21 mastery roadmap.

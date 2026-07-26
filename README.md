@@ -1,5 +1,12 @@
 # Learning Java 21
 
-For now only core syntax in the core-syntax folder, following the roadmap at ROADMAP.md file.
+Hands-on repository for mastering Java 21 (LTS) core concepts, memory model, generics, collections, and algorithms following the [ROADMAP.md](file:///home/mlovera/learn/java/ROADMAP.md).
 
-Later I'll continue learning about popular backend frameworks, ORM, and building some basic project I'll add them here.
+## Project Structure
+
+* `1.core-syntax/` - Primitive types, casting, `var`, type system.
+* `2.packages/` - Package declarations, multi-file structure, imports.
+* `3.jvm/` - JVM architecture, memory layout (Heap, Stack, Metaspace), Garbage Collection docs.
+* `4.generics/` - Generic classes, generic methods, bounded type parameters, wildcards (PECS), type erasure mechanics.
+* `5.dsa/` - Data structures, Java Collections Framework, JDK 21 Sequenced Collections, and algorithm cheat sheet.
+* `ROADMAP.md` - Java 21 mastery roadmap.
