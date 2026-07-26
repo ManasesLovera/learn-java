@@ -21,6 +21,12 @@ All Markdown files (`.md`) created or edited in this repository MUST strictly fo
 3. **Blanks Around Lists (MD032):**
    * Lists (`*`, `-`, `1.`) MUST be surrounded by a blank line before the list starts and after the list ends.
 
+4. **No Duplicate Headings (MD024):**
+   * All headings within a markdown file MUST be unique (e.g., prefixing subheadings with the specific topic name) to prevent duplicate heading errors.
+
+5. **Table Column Style & Pipe Spacing (MD060):**
+   * Markdown tables MUST include spaces around pipe delimiters in separator lines (e.g., `| --- | --- |`).
+
 ## 3. Project Structure
 
 * `1.core-syntax/` - Primitive types, casting, var, type system.
