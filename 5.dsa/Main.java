@@ -39,13 +39,13 @@ public class Main {
             System.out.printf("Current last element: %d%n", element);
         }
 
-        var expectedOutput = """
-                        Reading all elements in queue until empty:
-                        Current last element: 8
-                        Current last element: 15
-                        Current last element: 42
-                        Current last element: 99
-                """;
+        // var expectedOutput = """
+        // Reading all elements in queue until empty:
+        // Current last element: 8
+        // Current last element: 15
+        // Current last element: 42
+        // Current last element: 99
+        // """;
 
         // EXERCISE 3: Map Frequency Counter
         // 1. Create a Map<String, Integer> to count word frequencies from a list of
