@@ -9,6 +9,7 @@
   - Literal formats (Text Blocks `"""`, underscored numbers `1_000_000`).
 - **Object-Oriented Syntax:**
   - Classes, interfaces (default methods, static methods, private interface methods), abstract classes.
+  - Packages & Multi-File Structure (package declarations, class creation in separate files, `import` statements).
   - Enums (with custom methods, fields, and constructors).
   - Scope & Modifiers: `public`, `protected`, package-private (default), `private`, `final`, `static`.
 - **Modern Java Features (JDK 11–21):**
